@@ -14,7 +14,7 @@ a:hover {
     letter-spacing: 0.6px;
 }
 
-body {background-color: #f9f9f9; margin:0; padding:0;}
+body {background-color: #3994c9; margin:0; padding:0;}
 
 .avatarBox img {
 	box-shadow: 0px 0px 4px 1px #373141ab;
@@ -180,9 +180,32 @@ body {background-color: #f9f9f9; margin:0; padding:0;}
 	color: #6fb9a475;
 }
 .icon {
-	color: rgb(185, 178, 178);
+	color: rgb(88, 96, 204);
 	font-size: 50px;
 	margin-left: 15px;
 	text-align: center;
 	margin-right: 15px;
+}
+
+.app {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 91.666667%;
+	flex: 0 0 91.666667%;
+	max-width: 91.666667%;
+	/* margin-left: auto ; */
+	margin-left:47px;
+
+	text-align: center !important;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.ava{
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
