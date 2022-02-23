@@ -179,4 +179,10 @@ body {background-color: #f9f9f9; margin:0; padding:0;}
 	font-size: 13px;
 	color: #6fb9a475;
 }
-
+.icon {
+	color: rgb(185, 178, 178);
+	font-size: 50px;
+	margin-left: 15px;
+	text-align: center;
+	margin-right: 15px;
+}
