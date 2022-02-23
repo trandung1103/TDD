@@ -134,9 +134,13 @@ body {background-color: #f9f9f9; margin:0; padding:0;}
 	color: #fff;
 	border-radius: 2px;
 	position: relative;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 50px;
 }
 
 .sayHi:after {
+	text-align: center;
 	content: '';
 	width: 0;
 	height: 0;
