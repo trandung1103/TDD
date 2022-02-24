@@ -14,7 +14,8 @@ a:hover {
     letter-spacing: 0.6px;
 }
 
-body {background-color: #3994c9; margin:0; padding:0;}
+
+
 
 .avatarBox img {
 	box-shadow: 0px 0px 4px 1px #373141ab;
@@ -208,4 +209,10 @@ body {background-color: #3994c9; margin:0; padding:0;}
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
+}
+.prf{
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-top: 3rem     !important;
+    padding-bottom: 3rem !important;
 }
