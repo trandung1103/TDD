@@ -1,118 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>About Me</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                   
+                    <h6>About Me</h6>
+                </a>
 
-<head>
-	<meta charset="UTF-8">
-	<title>About Me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="sheet/bootstrap.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-	<link rel="stylesheet" href="sheet/mine.css">
-	<script src="javascript/myscript.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
-	<style>
-		body {
-		  background: url(./Background.jpg);
-		  background-size:cover;
-		  margin:0; padding:0;
-		}
-		
-	  </style>
-</head>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <a href="#Q&A" class="button button--ghost">Q&A</a>
+                    </ul>
 
-<body>
-	<div class="menu">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h3 class="py-3">About <span>Me</span></h3>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
 
-	<div class="container" style="margin-top: 116px;">
-		<div class="row">
-			<div class="col-11 mx-auto profile" style="background-color: gray;">
-				<div class="prf" >
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
 
-					<div class="row">
-						<div class="avatarBox ava" style="text-align:center;">
-							<img src="https://i.pinimg.com/550x/4a/51/79/4a5179e9a98df24f567506241d91a92a.jpg" class="img-fluid">
-						</div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
 
-						<div class="infoBox col-12  mt-2 mt-lg-0">
-							<p class="sayHi" style="text-align:center; font-size: 25px;">Hello</p>
-							<div class="name" style="text-align:center;">
-								<p style="font-size: 50px; margin-left: 120px;"><span>I'm</span> DUNG</p>
-								<p class="s" style="font-size: 20px;">Verified
-									<span class="bx bx-check "></span>
-								</p>
-							</div>
-							<hr>
+            </nav>
+        </header>
 
-							<div class="detailInfo"  style="margin-left: 300px;">
-								<div class="row " style="font-size: 30px;">
-									<div class="col-4 boldd">Tên:</div>
-									<div class="b" style="font-size: 30px;">Trần Đình Dũng</div>
-								</div>
-								<div class="row" style="font-size: 30px;">
-									<div class="col-4 boldd">Học tại:</div>
-									<div class="b" style="font-size: 30px;">THPT Chuyên DHV</div>
-								</div>
-								<div class="row" style="font-size: 30px;">
-									<div class="col-4 boldd">Lớp:</div>
-									<div class="b" style="font-size: 30px;">A2K53</div>
-								</div>
-								<div class="row" style="font-size: 30px;">
-									<div class="col-4 boldd">Tuổi:</div>
-									<div class=" b" style="font-size: 30px;">17</div>
-								</div>
-								<div class="row " style="font-size: 30px;">
-									<div class="col-4 boldd">Ngày sinh:</div>
-									<div class="b" style="font-size: 30px;">11/03/2004</div>
-								</div>
-								<div class="row "style="font-size: 30px;">
-									<div class="col-4 boldd">Facebook:</div>
-									<div class="b" style="font-size: 30px;"><a href="https://www.facebook.com/people/Dũng-Trần/100022612983037/">Trần Dũng</a></div>
-								</div>
-								<div class="row "style="font-size: 30px;">
-									<div class="col-4 boldd">Số điện thoại:</div>
-									<div class="b" style="font-size: 30px;">0913983285<br>0333661538</div>
-								</div>
+        <main class="main">
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="img-container" alt="img">
+                                    <img src="https://i.pinimg.com/550x/4a/51/79/4a5179e9a98df24f567506241d91a92a.jpg" class="home__img" style="margin-top: 50px;">
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">I'M ADONIS</h3>
+                                    <h1 class="home__title">TRAN DINH <br> DUNG</h1>
+                                    <p class="home__description">
+										<p>Học tại: THPT Chuyên ĐHV</p>
+										<br>
+										<p>Lớp: A2K53</p>
+										<br>
+										<p>Ngày sinh: 11/03/2004</p>
+										<br>
+										<p>Tuổi: 17</p>
+										<br>
+										<p>Email: trandinhdung6acxh@gmail.com</p>
+									
+                                    </p>
+									<br>
+                                    <div class="home__buttons">
+                                        <a href="https://www.facebook.com/people/Dũng-Trần/100022612983037/" class="button">Facebook</a>
+                                        <a href="#" class="button--link button--flex">Profile<i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
 
-							</div>
-						</div>
-					</div>
+            <section class="section newsletter" id="Q&A"> 
+                <div class="newsletter__container container">
+                    <h2 class="section__title">My Newsletter</h2>
+                    <p class="newsletter__description">
+                        Answer all your questions about me. Directly to your inbox
+                    </p>
 
-				</div>
-			</div>
-			<div class="app" style="background-color: brown;">
-				<div class="social ">
-					<a href="https://www.facebook.com/" target="_blank" class="icon">
-						<i class='bx bxl-facebook'></i>
-					</a>
-					<a href="https://www.instagram.com/" target="_blank" class="icon">
-						<i class='bx bxl-instagram-alt' ></i>
-					</a>
-					<a href="https://twitter.com/" target="_blank" class="icon">
-						<i class='bx bxl-twitter' ></i>
-					</a>
-					<a href="https://whatsapp.com/" target="_blank" class="icon">
-						<i class='bx bxl-whatsapp-square' ></i>
-					</a>
-					<a href="https://skype.com/" target="_blank" class="icon">
-						<i class='bx bxl-skype' ></i>
-					</a>
-					<a href="https://linkedin.com/" target="_blank" class="icon">
-						<i class='bx bxl-linkedin-square' ></i>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <br><br>
+                        <input type="text" placeholder="Questions" class="newsletter__input">
+                        <br><br>
+                        <button class="button1">
+                            Sent 
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer section">
+            <div >
+                <div class="footer__content">
+                    <h2 style="text-align: center;">ADONIS</h2>
+                    <br><br><br>
+                    <div >
+                        <a href="https://www.facebook.com/people/Dũng-Trần/100022612983037/" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://twitter.com/"  class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="https://whatsapp.com/" class="footer__social-link">
+                            <i class='bx bxl-whatsapp' ></i>
+                        </a>
+                        <a href="https://skype.com/" class="footer__social-link">
+                            <i class='bx bxl-skype' ></i>
+                        </a>
+                        <a href="https://linkedin.com/" class="footer__social-link">
+                            <i class='bx bxl-linkedin' ></i>
+                        </a>
+                        <a href="https://google.com/" class="footer__social-link">
+                            <i class='bx bxl-google' ></i>
+                        </a>
+                        <a href="https://github.com/trandung1103" class="footer__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div> 
 
-</body>
+            <span class="footer__copy">&#169; DUNGTD.All right reserved</span>
 
+            
 
+            <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+            <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            
+        </footer>
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
