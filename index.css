@@ -1,3 +1,13 @@
+#videoBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Giúp video bao phủ toàn bộ màn hình */
+    z-index: -1; /* Đặt video đằng sau nội dung */
+  }
+
 canvas {
 	position: absolute;
 	top: 0;
