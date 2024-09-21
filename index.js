@@ -1,7 +1,7 @@
 var w = (c.width = window.innerWidth),
   h = (c.height = window.innerHeight),
   ctx = c.getContext("2d"),
-  hw = w / 2, 
+  hw = w / 2,
   hh = h / 2,
   opts = {
     strings: ["CHÚC MỪNG", "SINH NHẬT BÉ IU CHU CHE !"],
@@ -352,11 +352,31 @@ function generateBalloonPath(x, y, size) {
   ctx.bezierCurveTo(x + size / 4, y - size, x + size / 2, y - size / 2, x, y);
 }
 
+// function anim() {
+//   window.requestAnimationFrame(anim);
+
+//   ctx.fillStyle = "rgba(0, 0, 0, 0.2)";
+//   ctx.fillRect(0, 0, w, h);
+
+//   ctx.translate(hw, hh);
+
+//   var done = true;
+//   for (var l = 0; l < letters.length; ++l) {
+//     letters[l].step();
+//     if (letters[l].phase !== "done") done = false;
+//   }
+
+//   ctx.translate(-hw, -hh);
+
+//   if (done) for (var l = 0; l < letters.length; ++l) letters[l].reset();
+// }
+
 function anim() {
   window.requestAnimationFrame(anim);
 
-  ctx.fillStyle = "#111";
-  ctx.fillRect(0, 0, w, h);
+  // Không vẽ hình chữ nhật nền để giữ nền trong suốt
+  ctx.fillStyle = "rgba(0, 0, 0, 0.09)";
+  ctx.clearRect(0, 0, w, h); // Xóa toàn bộ canvas, giữ nền trong suốt
 
   ctx.translate(hw, hh);
 
