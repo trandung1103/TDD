@@ -4,7 +4,7 @@ var w = (c.width = window.innerWidth),
   hw = w / 2,
   hh = h / 2,
   opts = {
-    strings: ["CHÚC MỪNG", "SINH NHẬT BÉ IU CHU CHE !"],
+    strings: ["CHÚC MỪNG", "SINH NHẬT BÉ IU CHU CHE!"],
     charSize: 30,
     charSpacing: 35,
     lineHeight: 40,
